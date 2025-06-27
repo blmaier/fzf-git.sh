@@ -1,7 +1,7 @@
 fzf-git.sh
 ==========
 
-bash and zsh key bindings for Git objects, powered by [fzf][fzf].
+bash, zsh, and fish key bindings for Git objects, powered by [fzf][fzf].
 
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/700826/185568470-20d70937-eea4-4274-aec5-14dfe7ee2de6.png">
 
@@ -18,6 +18,7 @@ Installation
       syntax-highlighted file previews
     * Git v2.42.0 or later is required for the `git for-each-ref` binding
 1. Source [fzf-git.sh](https://raw.githubusercontent.com/junegunn/fzf-git.sh/main/fzf-git.sh) file from your .bashrc or .zshrc
+    * For fish, download `fzf-git.sh` and `fzf-git.fish` into the same directory and source fzf-git.fish from your ~/.config/fish/config.fish
 
 Usage
 -----
